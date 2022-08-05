@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {XCircle} from 'phosphor-react/dist/icons/XCircle';
 class Entry extends Component {
     render() {
         return (

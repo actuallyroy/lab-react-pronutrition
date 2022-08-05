@@ -6,7 +6,6 @@ import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import { useState } from 'react';
 import foods from './data';
-import { MagnifyingGlass } from 'phosphor-react';
 import Entry from './components/Entry';
 
 let tempCal = 0;
