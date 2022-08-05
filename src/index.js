@@ -6,7 +6,7 @@ import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import { useState } from 'react';
 import foods from './data';
-import "https://unpkg.com/phosphor-icons"
+import { MagnifyingGlass } from 'phosphor-react';
 import Entry from './components/Entry';
 
 let tempCal = 0;
@@ -35,7 +35,7 @@ function Func() {
           }}
         ></input>
         <div id='search-button'>
-          <i className="ph-magnifying-glass-bold"></i>
+          <MagnifyingGlass size={40} color='#fff' weight='bold' />
         </div>
       </div>
       <div id='food-box'>
