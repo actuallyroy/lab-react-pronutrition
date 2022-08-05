@@ -1,0 +1,40 @@
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #dbc8ff;
+    margin: 20px;
+}
+
+.field{
+    display: flex;
+}
+
+.foodImg{
+    height: 100px;
+    width: 100px;
+}
+.input{
+    font-size: 25px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.control{
+    padding-left: 100px;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
